@@ -6,19 +6,32 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #000000 ;
     color: #f6f6f6;
 }
 
-.titulo-destaque {
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cebecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link { 
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
     color: #22D4FD;
-    padding: 10px;
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,6 +50,11 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: 'Krona One', sans-serif;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
+    padding: 10px;
 }
 
 .apresentacao__conteudo__texto {
@@ -101,6 +119,17 @@ body {
     top: 235px;
     border: 3px solid #22D4FD;
     border-radius: 16px;
-    
+
 }
 
+/* Inicio do Rodapé*/
+
+.rodape {
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 23.64px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
